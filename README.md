@@ -16,7 +16,7 @@ This repo is ideal for beginners wanting to get started with **PyTorch**, **Natu
 - Loss functions (CrossEntropy, MSE)
 - GPU/CPU training
 
-### ✅ Neural Network Architectures
+###  Neural Network Architectures
 - Feedforward Networks
 - RNN / LSTM basics
 - Word embeddings
