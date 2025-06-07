@@ -54,11 +54,6 @@ A basic **Question Answering system** built using Hugging Face’s pretrained `b
 **Answer**:
 > computer vision and NLP
 
----
 
-## 🚀 Setup Instructions
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/vasukondreddy/PyTorch.git
-   cd PyTorch
+
