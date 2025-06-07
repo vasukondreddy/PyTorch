@@ -1,22 +1,64 @@
-# PyTorch
+#  PyTorch NLP Projects – Question Answering System
 
-This repository is a custom fork or clone related to the PyTorch deep learning framework. It serves as a foundation for machine learning and deep learning research and development, leveraging the flexibility, speed, and modularity of PyTorch.
+Welcome to my PyTorch-based repository where I’ve explored key deep learning concepts and implemented a **simple Question Answering (QA) System** using pretrained models.
 
-## Overview
+This repo is ideal for beginners wanting to get started with **PyTorch**, **Natural Language Processing (NLP)**, and **transformers**.
 
-PyTorch is an open-source machine learning library developed primarily by Facebook's AI Research lab (FAIR). It is widely used for applications such as computer vision, natural language processing (NLP), and more. This repository may contain custom modifications, experiments, or extensions on top of upstream PyTorch.
+---
 
-## Features
+##  Topics Covered
 
-- Dynamic computational graph support
-- GPU acceleration via CUDA
-- Extensive support for deep neural networks
-- Modular and extensible codebase
-- Pythonic API for ease of use
+###  PyTorch Fundamentals
+- Tensors & operations
+- Autograd and backpropagation
+- Model building using `nn.Module`
+- Optimizers (`SGD`, `Adam`)
+- Loss functions (CrossEntropy, MSE)
+- GPU/CPU training
 
-## Installation
+### ✅ Neural Network Architectures
+- Feedforward Networks
+- RNN / LSTM basics
+- Word embeddings
+- Custom datasets and dataloaders
 
-To install the dependencies and set up the environment, run:
+###  NLP with PyTorch
+- Tokenization and preprocessing
+- Sequence classification
+- Named Entity Recognition (NER)
+- Transformers (using Hugging Face)
 
-```bash
-pip install -r requirements.txt
+---
+
+##  Final Project: Simple Question Answering System
+
+###  Description
+A basic **Question Answering system** built using Hugging Face’s pretrained `bert-base-uncased` model. Given a passage and a question, it returns the most probable answer from the passage.
+
+###  Tools Used
+- PyTorch
+- Hugging Face Transformers
+- `torch`, `torchvision`, `transformers`
+- Google Colab / Jupyter Notebook
+
+---
+
+##  Example
+
+**Input Passage**:
+> "PyTorch is an open source machine learning library based on the Torch library, used for applications such as computer vision and NLP."
+
+**Question**:
+> What is PyTorch used for?
+
+**Answer**:
+> computer vision and NLP
+
+---
+
+## 🚀 Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/vasukondreddy/PyTorch.git
+   cd PyTorch
